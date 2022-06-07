@@ -8,3 +8,13 @@
   </div>
 </template>
 
+<script>
+export default ({
+  methods: {
+    goToDaybook() {
+      this.$router.push({name: 'daybook'})
+    }
+  }
+})
+</script>
+
