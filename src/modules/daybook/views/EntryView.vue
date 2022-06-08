@@ -18,7 +18,9 @@
         <textarea placeholder="¿Qué sucedió hoy?"></textarea>
     </div>
 
-    <Fab />
+    <Fab 
+        icon="fa-save"
+    />
 
     <img 
         src="https://cdn.pixabay.com/photo/2016/11/29/06/17/audience-1867754_960_720.jpg" 
