@@ -9,6 +9,7 @@ export const updateEntry = (state, entry) => {
     const idx = state.entries.map(e => e.id).indexOf(entry.id);
     state.entries[idx] = entry;
 }
-export const addEntries = (/*state*/) => {
-
-}
+export const addEntry = (state, entry) => {
+    // state -> entries -> la nueva entrada debe ser la primera
+    state.entries = [entry, ...state.entries];
+}  
